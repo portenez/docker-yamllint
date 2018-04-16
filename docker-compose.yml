@@ -1,0 +1,6 @@
+version: '2'
+services:
+  yamllint:
+    image: 'portenez/yamllint'
+    build:
+      context: .
